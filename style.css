@@ -1,0 +1,251 @@
+/*body*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  margin: 50px;
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: rgb(29, 17, 95);
+}
+
+p {
+  margin: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+  line-height: 2;
+}
+
+/*header*/
+
+header {
+  height: 50px;
+}
+
+#menu {
+  font-family: "Lato", sans-serif;
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+
+ul li {
+  list-style: none;
+  padding: 10px;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: rgb(252, 181, 2);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration: overline;
+  text-decoration-color: linear-gradient(blue, pink);
+  -webkit-text-decoration-color: linear-gradient(blue, pink);
+}
+
+/*Welcome*/
+
+#hero {
+  height: 700px;
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-shadow: 2px 2px #333;
+  font-size: 40px;
+  text-align: center;
+  background-image: url("assets/backh1.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-containerwelcomefamily {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(110deg, #5296bd 60%, #46e2b3 60%);
+}
+
+#welcomefamily h3 {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+#welcomefamily p {
+  color: white;
+}
+
+#welcomefamily a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+#welcomefamily a:hover {
+  color: white;
+  font-style: bold;
+}
+
+.flex-containerwelcomeassets {
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(70deg, #46e2b3 50%, #5296bd 50%);
+}
+
+#welcomeassets h3 {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+#welcomeassets p {
+  color: white;
+}
+
+#welcomeassets a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+#welcomeassets a:hover {
+  color: white;
+  font-style: bold;
+}
+
+/*royal family*/
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#family .flex-container div {
+  flex: 1 1 0;
+  text-align: center;
+}
+
+#family {
+  background: linear-gradient(110deg, #46e2b3 60%, #5296bd 60%);
+  padding: 50px;
+  height: 350px;
+}
+
+/*table assets*/
+
+#assets {
+  padding: 0 auto;
+  background-image: url("assets/helmet.jpg");
+  background-size: auto;
+  color: white;
+}
+
+table {
+  border: none;
+  border-radius: 15px;
+  border-collapse: collapse;
+  width: 600px;
+  margin: auto;
+}
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(207, 182, 99);
+}
+
+/*contact form*/
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding-top: 40px;
+}
+
+label {
+  line-height: 2;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 300px;
+  min-height: 20%;
+}
+
+input[type="submit"] {
+  background: #283b63;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+#contact {
+  padding: 100px;
+  color: white;
+  background-image: url("assets/greece.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(110deg, #d2ece5 20%, #5b6368 60%);
+  color: black;
+  height: 150px;
+  width: 100%;
+  bottom: 0;
+}
+
+ol li {
+  list-style: none;
+  padding: 5px;
+}
+
+ol li a {
+  color: white;
+  text-decoration: none;
+}
